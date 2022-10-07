@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+     <title>Product Page</title>
+</head>
+<body>
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row align-items-center">
+                        <p>PHONE: +01 256 25235</p>
+                        <p>Email: info@eiser.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <div class="row">
+                        <p>gift card</p>
+                        <p>track order</p>
+                        <p>language</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-md-3 col-3">
+                    <a href="#"><img src="img/logo.png" class="img-fluid" alt="logo"></a>
+                </div>
+                <div class="col-md-6 hide-mb">
+                    <div class="row menu">
+                        <a href="index.html"><p>home</p></a>
+                        <a href="#"><p>shop</p></a>
+                        <a href="#"><p>blog</p></a>
+                        <a href="#"><p>products</p></a>
+                        <a href="#"><p>brands</p></a>
+                        <a href="#"><p>contact</p></a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-9 icon d-flex justify-content-end">
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="fas fa-shopping-cart"></i>
+                    <span class="cart-data">2</span>
+                    </a>
+                    <a href="#"><i class="far fa-heart"></i><span class="cart-data">6</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  
+  <div class="product">
+    <div class="container">
+        <div class="product-detail">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/Product1" alt="">
+                    <div class="sale">
+                        <h6>sale</h6>
+                    </div>
+                    <div class="discount d-flex align-items-center justify-content-center">
+                        <h6>25%</h6>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                        <h2>Juas Virgin Coconut Oil - 180 Ml</h2>
+                        <div class="rating d-flex align-items-center">
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p><a href="#">132 ratings<span-bar>|</span></a></p>
+                            <p><a href="#">43 Answered Questions</a></p>
+                        </div>
+                        <div class="brand-text d-flex">
+                            <p>Brand:<span-bar>|</span></p>
+                            <a href="#">
+                                <p>Juas <span-bar>|</span></p>
+                            </a>
+                            <a href="#">
+                                <p>More Skin care from juas</p>
+                            </a>
+                        </div>
+                        <h2>Rs. 470</h2>
+                        <div class="d-flex align-items-center">
+                            <p>Promotions <span-bar>|</span></p>
+                            <p id="promotion">Buy More & Save Up to Rs. 705</p>
+                        </div>
+                        <p>Quantity</p>
+                        <p style="text-align: center;">You will pay NPR470.00. Buy 10 and save NPR705.00</p>
+                        <div class="product-button d-flex">
+                            <button id="button1">Buy Now</button>
+                            <button id="button2">Add to cart</button>
+                        </div>
+                </div>
+                <div class="col-md-3">
+                    <h6>Deliver Options</h6>
+                    <div class="div1 d-flex align-items-center">
+                        <i class="fas fa-street-view"></i>
+                        <p>	Bagmati, Kathmandu Metro 22 - Newroad Area, Newroad</p>
+                        <a href="#">change</a>
+                    </div>
+                    <div class="div1 d-flex">
+                        <i class="fas fa-truck"></i>
+                        <p>Home Delivery<span-bar>|</span></p>
+                        <p>Rs. 50</p>
+                    </div>
+                    <div class="div1 d-flex">
+                        <i class="far fa-money-bill-alt"></i>
+                        <p>Cash on Delivery available</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </div>
+</body>
+</html>
